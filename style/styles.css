@@ -1,0 +1,154 @@
+/*Configuração padrão do browser*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600;700&display=swap');
+
+
+/*Variáveis*/
+:root {
+  --branco:#ffffff;
+  --roxo-mais-claro: rgb(229, 190, 255);
+  --roxo: rgb(44, 13, 68);
+  --roxo-escuro:rgb(7, 1, 12);
+  --fonts: 'Source Sans Pro', sans-serif;
+  --margin: 20px;
+}
+
+/*Seção principal*/
+main {
+  height: 90vh;
+  background: linear-gradient(to top, var(--roxo), var(--roxo-escuro));
+  display: flex;
+  align-items: center;
+}
+
+/*Container*/
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*Estilos: fontes, espaçamento, links*/
+h1, p, a, input {
+  color: var(--branco);
+  margin-bottom: 30px;
+  font-family: var(--fonts);
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: 700;
+  text-shadow: 2px 2px 20px #a74aff5b;;
+}
+
+p, a {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: var(--roxo-mais-claro);
+}
+
+
+/*Campo de entrada de dados*/
+.campo {
+  border: none;
+  border-radius: 22px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  color: var(--roxo);
+  font-size: 18px;
+  font-family: var(--fonts);
+  font-weight: 500;
+  padding: 10px;
+  width: 60%;
+  text-align: left;
+  box-shadow: 2px 2px 20px #ffffff34;
+  outline: 0;
+}
+
+/*Muda a cor do placeholder*/
+.campo::placeholder {
+  color: var(--roxo-escuro);
+}
+
+/*Botão de inscreva-se*/
+button {
+  display: inline-block;
+  width: 30%;
+  padding: 10px;
+  border-top-right-radius: 22px;
+  border-bottom-right-radius: 22px;
+  border: none;
+  font-size: 18px;
+  font-family: var(--fonts);
+  font-weight: 500;
+  margin-left: -25px;
+  background-color: var(--roxo-mais-claro);
+  box-shadow: 2px 2px 20px #ffffff34;
+  cursor: pointer;
+}
+
+/*Seção rodapé*/
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--roxo);
+  height: 10vh;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  font-weight: 400;
+  color: #dddd;
+  padding-bottom: 55px;
+}
+
+.p-footer {
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 0;
+}
+
+img {
+  margin-top: -15px;
+}
+
+/*Alteraçoes no modo responsivo(mobile)*/
+@media (max-width:600px) {
+  .container {
+    padding: 10px;
+  }
+}
+
+@media (max-width:400px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  p, span {
+    font-size: 18px;
+  }
+
+  .campo {
+    width: 60%;
+    font-size: 16px;
+  }
+
+  button {
+    width: 40%;
+    font-size: 16px;
+  }
+}
