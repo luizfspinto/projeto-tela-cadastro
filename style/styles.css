@@ -124,6 +124,8 @@ footer {
 
 img {
   margin-top: -15px;
+  width: 30px;
+  height: 50px;
 }
 
 /*Alteraçoes no modo responsivo(mobile)*/
