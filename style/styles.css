@@ -43,7 +43,7 @@ h1, p, a, input {
 h1 {
   font-size: 70px;
   font-weight: 700;
-  text-shadow: 2px 2px 20px #a74aff5b;;
+  text-shadow: 2px 2px 20px #a74aff5b;
 }
 
 p, a {
@@ -118,7 +118,7 @@ footer {
 
 .p-footer {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: normal;
   padding-bottom: 0;
 }
 
