@@ -1,1 +1,1 @@
-alert("Bem-vindo(a) à minha página!")
+alert("Olá, bem-vindo a minha página!")
