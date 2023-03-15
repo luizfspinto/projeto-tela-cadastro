@@ -10,7 +10,7 @@ Projeto desenvolvido com objetivo de adquirir experiências em Desenvolvimento W
 </p>
 
 ## Demo
-https://cadastrodeemails.lzfelipe.dev/
+https://cadastrodeemails.lzfelipe.dev
 
 ## 🚀 Tecnologias
 
