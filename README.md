@@ -9,8 +9,6 @@ Projeto desenvolvido com objetivo de adquirir experiências em Desenvolvimento W
   <img alt="projeto Tela de Cadastro" src=".github/layout.png" width="100%">
 </p>
 
-## Demo
-https://cadastrodeemails.lzfelipe.dev
 
 ## 🚀 Tecnologias
 
